@@ -3,6 +3,7 @@ import React from 'react';
 import { Text, View } from 'react-native';
 
 // Make a (functional) component
+// ** functional component - like a hose, put information in and it comes out
 const Header = (props) => {
   const { textStyle, viewStyle } = styles;
 
